@@ -10,6 +10,9 @@ class ToolString():
             if self.frase[i] == self.frase[-i-1]:
                 c+=1    
         return(len(self.frase)== c)
+                                        #self.frase= frase.replace(" ", "")
+                                        #self.frase2= frase.replace(" ", "") [::-1]
+                                        #return(self.frase==self.frase2)
     
      
     def is_upper(self, palabra):
